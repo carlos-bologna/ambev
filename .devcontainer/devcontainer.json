@@ -2,7 +2,7 @@
   "name": "kafka-testdata-spark",
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "dev",
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/workspaces/kafka-testdata-spark",
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": { "moby": false }
   },
@@ -23,5 +23,5 @@
     }
   },
   "forwardPorts": [9092, 8081, 8083, 9021],
-  "postCreateCommand": "pip install -r /workspaces/${localWorkspaceFolderBasename}/requirements.txt || true"
+  "postCreateCommand": "pip install -r requirements.txt || true"
 }
