@@ -23,5 +23,10 @@
     }
   },
   "forwardPorts": [9092, 8081, 8083, 9021],
+  "remoteEnv": {
+    "PYSPARK_PYTHON": "/usr/local/bin/python",
+    "SPARK_HOME": "/opt/spark",
+    "JAVA_HOME": "/usr/lib/jvm/default-java"
+  },
   "postCreateCommand": "pip install -r requirements.txt || true"
 }
