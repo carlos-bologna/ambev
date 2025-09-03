@@ -13,3 +13,11 @@ To open the project in a dev container, use the VSCode command palette and selec
    ./main.sh
    ```
 3. Open the notebook `kafka_datagen_demo.ipynb` in VSCode and run the cells to see the data ingestion in action.
+
+## Demo Video
+
+You can watch a demonstration of the data ingestion process in the following video:
+
+<video src="./ScreenRecording.mov" controls width="100%">
+  Your browser does not support the video tag.
+</video>
