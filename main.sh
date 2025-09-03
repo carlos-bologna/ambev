@@ -8,5 +8,8 @@ curl -s -X POST -H "Content-Type: application/json" \
   --data @/workspaces/kafka-testdata-spark/examples/datagen/orders.json \
   http://connect:8083/connectors | jq .
 sleep 5
-echo "Consuming last 10 messages from 'orders' topic..."
-kcat -b kafka:29092 -t orders -C -o -10 -q
+#echo "Consuming last 10 messages from 'orders' topic..."
+#kcat -b kafka:29092 -t orders -C -o -10 -q
+echo "Kafka topic 'orders' created and test data is being sent to it."
+echo "You can now run the notebook 'kafka_datagen_demo.ipynb' to process the data with PySpark."
+echo "Spark Stream ready"
