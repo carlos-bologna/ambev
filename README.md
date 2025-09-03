@@ -18,6 +18,4 @@ To open the project in a dev container, use the VSCode command palette and selec
 
 You can watch a demonstration of the data ingestion process in the following video:
 
-<video src="./ScreenRecording.mov" controls width="100%">
-  Your browser does not support the video tag.
-</video>
+![Demo of Data Ingestion](ScreenRecording.gif)
